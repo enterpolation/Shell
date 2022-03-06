@@ -2,7 +2,7 @@
 The classic Unix command line interpreter. Written in C using system
 system calls.
 
-##Main features
+## Main features
 - External program startup:
 ```
 $ ls -a
@@ -25,7 +25,7 @@ $ cat < file.txt
 ```
 $ cat < file.txt | sort | uniq
 ```
-##How to execute
+## How to execute
 ```
 $ gcc -g -Wall -o main main.c
 ```
